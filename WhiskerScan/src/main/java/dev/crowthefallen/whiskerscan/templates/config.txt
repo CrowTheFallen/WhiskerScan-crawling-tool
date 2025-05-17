@@ -1,0 +1,11 @@
+startUrls = ["https://site1.com", "https://site2.org"]
+maxDepth = 3
+delayBetweenRequests = 1500
+outputFormat = "json"
+outputPath = "output/data.json"
+respectRobotsTxt = true
+userAgent = "MyCustomCrawler/1.0"
+maxPages = 100
+followSubdomains = false
+includeKeywords = ["cyber", "sécurité"]
+excludeExtensions = [".jpg", ".png", ".zip"]

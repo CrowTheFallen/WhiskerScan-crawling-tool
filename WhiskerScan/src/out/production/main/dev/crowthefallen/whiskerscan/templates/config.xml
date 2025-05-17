@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <startUrls>
+        <url>https://example.com</url>
+        <url>https://autre-site.org</url>
+    </startUrls>
+
+    <maxDepth>3</maxDepth>
+    <delayBetweenRequests>1500</delayBetweenRequests> <!-- en millisecondes -->
+
+    <output>
+        <format>json</format>
+        <path>output/data.json</path>
+    </output>
+
+    <respectRobotsTxt>true</respectRobotsTxt>
+    <userAgent>MyCustomCrawler/1.0</userAgent>
+    <maxPages>100</maxPages>
+    <followSubdomains>false</followSubdomains>
+
+    <filters>
+        <includeKeywords>
+            <keyword>cyber</keyword>
+            <keyword>sécurité</keyword>
+        </includeKeywords>
+        <excludeExtensions>
+            <extension>.jpg</extension>
+            <extension>.png</extension>
+            <extension>.zip</extension>
+        </excludeExtensions>
+    </filters>
+</configuration>
